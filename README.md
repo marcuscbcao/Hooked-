@@ -21,10 +21,12 @@ A Chrome Manifest V3 service worker brokers messages between the popup, the cont
 ## Challenges we ran into
 Several Gemini model versions hit quota limits of zero on our API keys. We added a **testing mode** that returns a realistic sample response so we could build and demo the full pipeline without burning quota.
 
-## Accomplishments that we're proud of
-- A complete pipeline: DOM extraction > AI analysis > voice readout, all from one button click
-- The ElevenLabs audio playing back through the extension message chain as base64 and playing in the popup
-
+## My contributions
+- Developed frontend components for a Chrome extension enabling user interaction and real-time feedback
+- Designed and implemented a warning notification system to alert users of potential phishing threats
+- Implemented email content scanning logic to analyze message text before AI evaluation
+- Contributed feature ideas and UI/UX decisions during collaborative hackathon development
+- 
 ## What we learned
 - Gemini quota limits are unpredictable. Building a testing mode early saved hours of blocked development
 - ElevenLabs voice quality is very sensitive to `stability` and `similarity_boost`. Small tweaks matter a lot for a warning/alert context
